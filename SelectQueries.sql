@@ -58,7 +58,9 @@ SELECT * FROM EmployeeDetails;
 -- Select/Show columns from table 'EmployeeDetails' where salary > 30000 && who is permanent employee
 -- --------------------------------------------------------------------------------------------------
 
-SELECT * FROM EmployeeDetails WHERE salary>30000 && Impermanent_Employee = false;
+SELECT * FROM EmployeeDetails 
+WHERE salary>30000 
+&& Impermanent_Employee = false;
 
 -- --------------------------------------------------------------
 -- 2# Output 
@@ -83,7 +85,9 @@ SELECT * FROM EmployeeDetails WHERE salary>30000 && Impermanent_Employee = false
 -- Select/Show columns from table 'EmployeeDetails' where salary > 30000 && who is not permanent employee
 -- -----------------------------------------------------------------------------------------------------------
 
-SELECT * FROM EmployeeDetails WHERE salary>30000 && Impermanent_Employee = true;
+SELECT * FROM EmployeeDetails 
+WHERE salary>30000 
+&& Impermanent_Employee = true;
 
 -- --------------------------------------------------------------
 -- 3# Output 
@@ -122,7 +126,10 @@ SELECT * FROM EmployeeDetails WHERE salary>30000 && Impermanent_Employee = true;
 -- -----------------------------------------------------------------------------------------
 
 
-SELECT First_Name,Last_Name FROM EmployeeDetails WHERE Experience > 5;
+SELECT First_Name,
+Last_Name 
+FROM EmployeeDetails
+WHERE Experience > 5;
 
 
 -- --------------------------------------------------------------
