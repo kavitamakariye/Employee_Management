@@ -13,9 +13,9 @@ USE EmployeeManagement;
 UPDATE EmployeeDetails
 SET Joining_Date = '2018-5-24'
 WHERE (
-SELECT Joining_Date 
-WHERE EmployeeID 
-IN (2,4,28,16,12)
+	SELECT Joining_Date 
+	WHERE EmployeeID 
+	IN (2,4,28,16,12)
 );
 
 
@@ -26,9 +26,9 @@ IN (2,4,28,16,12)
 UPDATE EmployeeDetails
 SET Joining_Date = '2017-12-26'
 WHERE(
-SELECT Joining_Date 
-WHERE EmployeeID 
-IN (1,3,5,7,11)
+	SELECT Joining_Date 
+	WHERE EmployeeID 
+	IN (1,3,5,7,11)
 );
 
 
@@ -40,9 +40,9 @@ IN (1,3,5,7,11)
 UPDATE EmployeeDetails
 SET Joining_Date = '2012-12-12'
 WHERE(
-SELECT Joining_Date
-WHERE EmployeeID
-IN (6,13,16,22,29)
+	SELECT Joining_Date
+	WHERE EmployeeID
+	IN (6,13,16,22,29)
 );
 
 
@@ -53,9 +53,9 @@ IN (6,13,16,22,29)
 UPDATE EmployeeDetails
 SET Joining_Date = '2011-5-22'
 WHERE(
-SELECT Joining_Date
-WHERE EmployeeID
-IN (8,10,14,17,27)
+	SELECT Joining_Date
+	WHERE EmployeeID
+	IN (8,10,14,17,27)
 );
 
 -- ---------------------------------------------------------
@@ -65,9 +65,9 @@ IN (8,10,14,17,27)
 UPDATE EmployeeDetails
 SET Joining_Date ='2014-04-11'
 WHERE(
-SELECT Joining_Date
-WHERE EmployeeID
-IN (9,15,18,19,21)
+	SELECT Joining_Date
+	WHERE EmployeeID
+ 	IN (9,15,18,19,21)
 );
 
 
@@ -78,9 +78,9 @@ IN (9,15,18,19,21)
 UPDATE EmployeeDetails
 SET Joining_Date ='2010-04-19'
 WHERE(
-SELECT Joining_Date
-WHERE EmployeeID
-IN (20,23,24,26,30)
+	SELECT Joining_Date
+	WHERE EmployeeID
+	IN (20,23,24,26,30)
 );
 
 
