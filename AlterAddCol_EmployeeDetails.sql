@@ -9,4 +9,8 @@ USE EmployeeManagement;
 -- ----------------------------------------------------------------
 
 
-ALTER TABLE EmployeeDetails ADD COLUMN (Salary FLOAT NOT NULL, Impermanent_Employee VARCHAR(10));
+ALTER TABLE EmployeeDetails 
+ADD COLUMN (
+Salary FLOAT NOT NULL,
+Impermanent_Employee VARCHAR(10)
+);
