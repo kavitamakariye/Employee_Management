@@ -10,7 +10,7 @@ USE EmployeeManagement;
 -- ---------------------------------------------
 
 CREATE TABLE IF NOT EXISTS CompanyProjectDetails(
-EmployeeID INT,
+ID INT,
 ProjectName VARCHAR(400) NOT NULL,
 ClientName VARCHAR(15) NOT NULL,
 ManagerName VARCHAR(15) NOT NULL,

@@ -6,11 +6,11 @@ USE EmployeeManagement;
 
 
 -- ---------------------------------------------
--- Creating table 'EmployeeDesignation'
+-- Creating table 'Designations'
 -- ---------------------------------------------
 
-CREATE TABLE IF NOT EXISTS EmployeeDesignation(
-EmployeeID INT,
+CREATE TABLE IF NOT EXISTS Designations(
+ID INT,
 Designation VARCHAR(20) NOT NULL,
 FOREIGN KEY(EmployeeID) REFERENCES EmployeeDetails(EmployeeID)
 );

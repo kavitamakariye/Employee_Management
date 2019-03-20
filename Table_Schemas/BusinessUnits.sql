@@ -10,7 +10,7 @@ USE EmployeeManagement;
 -- ---------------------------------------------
 
 CREATE TABLE IF NOT EXISTS BusinessUnits(
-EmployeeID INT,
+ID INT,
 Units VARCHAR(30) NOT NULL,
 UnitHead VARCHAR(20) NOT NULL
 );

@@ -10,6 +10,6 @@ USE EmployeeManagement;
 -- ---------------------------------------------
 
 CREATE TABLE IF NOT EXISTS BloodGroups(
-EmployeeID INT,
+ID INT,
 Blood_Group VARCHAR(4) NOT NULL
 );
