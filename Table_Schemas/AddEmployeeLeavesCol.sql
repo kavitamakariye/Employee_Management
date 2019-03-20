@@ -7,17 +7,15 @@ USE EmployeeManagement;
 
 
 -- --------------------------------------------------------------------------------------
--- Adding Employee Login Details columns through alter commnand in table EmployeeDetails
+-- Adding Employee Leaves columns through alter commnand in table EmployeeDetails
 -- -------------------------------------------------------------------------------------
 
 ALTER TABLE EmployeeDetails
 ADD COLUMN(
-LoingUserName VARCHAR(10) NOT NULL,
-LoginPassword VARCHAR(15) NOT NULL,
-EmailID VARCHAR(25) NOT NULL,
-EmergencyContactNumber BIGINT(10) NOT NULL
+TotalLeaves INT(2) NOT NULL,
+AvailedLeaves INT(2) NOT NULL,
+BalancedLeaves INT(2) NOT NULL
 );
-
 
 
 

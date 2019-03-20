@@ -10,20 +10,21 @@ USE EmployeeManagement;
 -- ---------------------------------------------
 
 CREATE TABLE IF NOT EXISTS EmployeeEmployementDetails(
-EmployeeID INT
-Designation VARCHAR(40) NOT NULL, 
+EmployeeID INT NOT NULL,
+Designation VARCHAR(40), 
 Role VARCHAR(40) NOT NULL,
-ProjectName ,
-SupervisorName ,
-Salary ,
-IsPermanentEmployee ,
-CompanyName ,
-JoiningDate ,
-EmployeeSkills ,
-EmailID ,
+ProjectName VARCHAR(50) NOT NULL,
+SupervisorName VARCHAR(15) NOT NULL,
+Salary FLOAT NOT NULL,
+IsPermanentEmployee BOOLEAN NOT NULL,
+CompanyName VARCHAR(20) DEFAULT 'Google',
+JoiningDate DATE,
+EmployeeSkills VARCHAR(30) NOT NULL,
+EmailID VARCHAR(20),
 Grade INT NOT NULL,
-BaseLocation ,
+BaseLocation VARCHAR(20) NOT NULL,
 ExperienceInCompany INT NOT NULL,
-TotalExperience INT NOT NULL, 
+TotalExperience INT NOT NULL,
+FOREIGN KEY(EmployeeID) REFERENCES EmployeeDetails(EmployeeID)
 );
 

@@ -189,7 +189,7 @@ SET
 LoginUserName = 'GAdam',
 LoginPassword = 'Govind',
 EmailID = 'GovindAdam@gmail.com',
-EmergencyContactNumber = ,
+EmergencyContactNumber = 8596742356,
 TotalLeaves  = 8,
 AvailedLeaves  = 8,
 BalancedLeaves = 5,
